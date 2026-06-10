@@ -10,18 +10,6 @@ An advanced Telegram Telegraph Bot built with Pyrogram and MongoDB.
 - ⚡ Instant Telegraph Link Generation
 - 💾 MongoDB Database Support
 - 📊 Owner Statistics Panel
-- 🔄 Refresh Stats Button
-- 🎬 Animated Start Menu
-- ℹ️ About Menu
-- ❓ Help Menu
-- 🏠 Home Navigation
-- 👑 Owner Button
-- 📢 Updates Channel Button
-- ☁️ Koyeb Ready
-- ☁️ Render Ready
-- 🐍 Python 3 Support
-- 🔥 Pyrogram Framework
-- 🚀 Fast & Lightweight
 
 ---
 
@@ -80,25 +68,6 @@ Start Command:
 
 python bot.py
 
----
-
-📂 Project Structure
-
-AU-Ultra-Telegraph-Bot/
-│
-├── bot.py
-├── config.py
-├── database.py
-├── requirements.txt
-│
-├── plugins/
-│   ├── start.py
-│   ├── telegraph.py
-│   ├── stats.py
-│
-└── keep_alive.py
-
----
 
 👨‍💻 Developer
 
