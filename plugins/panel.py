@@ -36,9 +36,6 @@ Manage your bot from here:
             InlineKeyboardButton("📢 Broadcast", callback_data="broadcast_panel")
         ],
         [
-            InlineKeyboardButton("📦 Batch", callback_data="batch_panel")
-        ],
-        [
             InlineKeyboardButton("❌ Close", callback_data="close_panel")
         ]
     ])
