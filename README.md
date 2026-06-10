@@ -121,17 +121,21 @@ python bot.py
 </details>
 
 ---
+## 👨‍💻 Developer
 
-- Developer: <a href="https://t.me/Mr_Mohammed_29"><b>ᴍᴏʜᴀᴍᴍᴇᴅ</b></a>  
+<a href="https://t.me/Mr_Mohammed_29">ᴍᴏʜᴀᴍᴍᴇᴅ</a>
+
 ---
 
-## Fork and ⭐ this repo 
-<p align="center">
-  If you like this bot, give it a ⭐ on GitHub to support the project!  
-  <a href="https://github.com/MD-Developer-yt/telegraph-ultra-bot" target="_blank">
-  </a>
-</p>
+## ⭐ Fork & Star This Repo
 
+<p align="center">
+If you like this bot, please give it a ⭐ on GitHub.
+
+<a href="https://github.com/MD-Developer-yt/telegraph-ultra-bot">
+⭐ Star Repository
+</a>
+</p>
 
 📢 Share with friends
 
