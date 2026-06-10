@@ -1,84 +1,137 @@
-🚀 AU Ultra Telegraph Bot
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7F1&width=435&lines=Welcome+To+AU+Ultra+Telegraph+Bot;Create+Telegraph+Pages+Instantly;Made+By+Mohammed)](https://git.io/typing-svg)
 
-An advanced Telegram Telegraph Bot built with Pyrogram and MongoDB.
-
----
-
-✨ Features
-
-- 📝 Create Telegraph Pages using "/tgm"
-- ⚡ Instant Telegraph Link Generation
-- 💾 MongoDB Database Support
-- 📊 Owner Statistics Panel
-
----
-
-📌 Commands
-
-User Commands
-
-"/start"
-
-Start the bot
-
-"/tgm Title | Your Text"
-
-Create a Telegraph page
-
-Owner Commands
-
-"/stats"
-
-View bot statistics
+<p align="center">
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python 3"/>
+  </a>
+  <a href="https://docs.pyrogram.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Framework-Pyrogram-brightgreen?style=for-the-badge" alt="Pyrogram"/>
+  </a>
+  <a href="https://telegra.ph/" target="_blank">
+    <img src="https://img.shields.io/badge/Platform-Telegraph-black?style=for-the-badge" alt="Telegraph"/>
+  </a>
+  <a href="https://t.me/Mr_Mohammed_29" target="_blank">
+    <img src="https://img.shields.io/badge/Developer-Mohammed-purple?style=for-the-badge&logo=telegram&logoColor=white" alt="Developer"/>
+  </a>
+</p>
 
 ---
 
-⚙️ Environment Variables
+# 🚀 AU Ultra Telegraph Bot
 
-API_ID=YOUR_API_ID
-API_HASH=YOUR_API_HASH
-BOT_TOKEN=YOUR_BOT_TOKEN
-MONGO_URL=YOUR_MONGO_URL
-DB_NAME=YOUR_DATABASE_NAME
-OWNER_ID=YOUR_TELEGRAM_ID
+A powerful Telegram bot for creating Telegraph pages instantly.
 
----
+### ✨ Features
 
-🛠 Requirements
-
-pyrogram
-tgcrypto
-pymongo
-telegraph
-flask
+- 📝 Create Telegraph Pages
+- ⚡ Fast & Lightweight
+- 👥 User Statistics
+- 📊 Admin Stats Panel
+- ☁️ MongoDB Database
+- 🌐 Render & Koyeb Supported
 
 ---
 
-🚀 Deployment
+## 🤖 Demo Bot
 
-Koyeb
+**Bot:** https://t.me/AU_Ultra_Telegraph_Bot
 
-Start Command:
+---
 
+<details>
+<summary><b>Click Here To Expand Variables</b></summary>
+
+| Variable | Description |
+|-----------|------------|
+| BOT_TOKEN | Telegram Bot Token |
+| API_ID | Telegram API ID |
+| API_HASH | Telegram API Hash |
+| OWNER_ID | Telegram User ID |
+| MONGO_URL | MongoDB URL |
+| DB_NAME | Database Name |
+
+</details>
+
+---
+
+## ✨ Commands
+
+```txt
+start  - Start Bot
+tgm    - Create Telegraph Page
+panel  - Admin/Owner Control Panel (Owner only)
+stats  - Bot Statistics (Owner Only)
+broadcast - Send Messages To All User (Owner Only)
+```
+
+---
+
+## 📌 Bot Feature
+
+### 📝 Telegraph Post
+
+Create Telegraph pages using:
+
+```txt
+/tgm Title | Your Text Here
+```
+
+Example:
+
+```txt
+/tgm One Piece | One Piece is one of the greatest anime ever made.
+```
+
+---
+
+<details>
+<summary><b>🌐 Deploy On Render</b></summary>
+
+### Build Command
+
+```bash
+pip install -r requirements.txt
+```
+
+### Start Command
+
+```bash
 python bot.py
+```
 
-Render
-
-Start Command:
-
-python bot.py
-
-
-👨‍💻 Developer
-
-- Telegram: @Mr_Mohammed_29
-
-📢 Updates
-
-- Channel: @Anime_UpdatesAU
+</details>
 
 ---
 
-⭐ Support
+<details>
+<summary><b>☁️ Deploy On Koyeb</b></summary>
 
-If you like this project, give it a ⭐ on GitHub.
+### Build Command
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run Command
+
+```bash
+python bot.py
+```
+
+</details>
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+
+🍴 Fork the repository
+
+📢 Share with friends
+
+---
+
+# DON'T REMOVE MY CREDITS
