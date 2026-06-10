@@ -122,7 +122,15 @@ python bot.py
 
 ---
 
-## ⭐ Support
+- Developer: <a href="https://t.me/Mr_Mohammed_29"><b>ᴍᴏʜᴀᴍᴍᴇᴅ</b></a>  
+---
+
+## Fork and ⭐ this repo 
+<p align="center">
+  If you like this bot, give it a ⭐ on GitHub to support the project!  
+  <a href="https://github.com/MD-Developer-yt/telegraph-ultra-bot" target="_blank">
+  </a>
+</p>
 
 If you like this project:
 
