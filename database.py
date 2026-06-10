@@ -18,13 +18,11 @@ db = client[config.DB_NAME]
 
 users = db.users
 posts = db.posts
-user_images = db.user_images
 
 # ---------------- INDEXES ---------------- #
 
 users.create_index("user_id", unique=True)
 posts.create_index("user_id")
-user_images.create_index("user_id")
 
 # ---------------- USER ---------------- #
 
