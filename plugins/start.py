@@ -23,7 +23,6 @@ Language : Python 3
 Library : Pyrogram 
 Database : MongoDB
 Channel : @Anime_UpdatesAU 
-Support : @AU_Bot_Discussion 
 Owner : @Mr_Mohammed_29 
 """
 
@@ -32,9 +31,6 @@ HELP_TEXT = """
 
 📌 /tgm
 → Create Telegraph page from text/media
-
-📌 /batch
-→ Generate batch links for multiple files
 
 💡 Just send files or text and follow instructions.
 """
@@ -123,9 +119,6 @@ async def callback_handler(client: Client, query: CallbackQuery):
 
     elif data == "broadcast_panel":
         await query.message.edit_text("Reply and use /broadcast")
-
-    elif data == "batch_panel":
-        await query.message.edit_text("Use /batch command")
 
     elif data == "reset_settings":
         await query.message.edit_text(
