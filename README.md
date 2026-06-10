@@ -132,11 +132,6 @@ python bot.py
   </a>
 </p>
 
-If you like this project:
-
-⭐ Star the repository
-
-🍴 Fork the repository
 
 📢 Share with friends
 
