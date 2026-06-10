@@ -8,6 +8,7 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from database import add_user
+from database import total_users, total_posts
 
 
 START_GIF = "https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif"
@@ -30,7 +31,7 @@ HELP_TEXT = """
 ❓ HELP MENU
 
 📌 /tgm
-→ Create Telegraph page from text/media
+→ Create Telegraph page from text
 
 💡 Just send files or text and follow instructions.
 """
@@ -124,6 +125,31 @@ async def callback_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             "⚠️ Settings reset completed.",
             reply_markup=start_buttons()
+        )
+    elif data == "refresh_stats":
+        
+        users = total_users()
+        posts = total_posts()
+
+        text = f"""
+    📊 BOT STATISTICS
+
+    👥 Total Users: {users}
+    📝 Total Posts: {posts}
+
+    ⚡ Status: Live
+    """
+
+        await query.message.edit_text(
+            text,
+            reply_markup=InlineKeyboardMarkup([
+                [
+                    InlineKeyboardButton(
+                        "🔄 Refresh",
+                        callback_data="refresh_stats"
+                    )
+                ]
+            ])
         )
 
     elif data == "noop":
