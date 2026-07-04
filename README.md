@@ -32,12 +32,6 @@ A powerful Telegram bot for creating Telegraph pages instantly.
 
 ---
 
-## 🤖 Demo Bot
-
-**Bot:** <a href="https://t.me/AU_Ultra_Telegraph_Bot">AU Telegraph Bot</a>
-
----
-
 <details>
 <summary><b>Click Here To Expand Variables</b></summary>
 
