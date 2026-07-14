@@ -23,7 +23,7 @@ ABOUT_TEXT = """
 Language : Python 3
 Library : Pyrogram 
 Database : MongoDB
-Channel : @Anime_UpdatesAU 
+Channel : @Aero_Unity 
 Owner : @Mr_Mohammed_29 
 """
 
@@ -41,21 +41,21 @@ HELP_TEXT = """
 def start_buttons():
     return InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("📢 Updates", url="https://t.me/Anime_UpdatesAU")
+            InlineKeyboardButton("• Updates •", url="https://t.me/Aero_Unity")
         ],
         [
-            InlineKeyboardButton("ℹ️ About", callback_data="about"),
-            InlineKeyboardButton("❓ Help", callback_data="help")
+            InlineKeyboardButton("• About •", callback_data="about"),
+            InlineKeyboardButton("• Help •", callback_data="help")
         ],
         [
-            InlineKeyboardButton("👑 Owner", url="https://t.me/Mr_Mohammed_29")
+            InlineKeyboardButton("• Owner •", url="https://t.me/Mr_Mohammed_29")
         ]
     ])
 
 
 def back_button():
     return InlineKeyboardMarkup([
-        [InlineKeyboardButton("🏠 Home", callback_data="start_home")]
+        [InlineKeyboardButton("• Home •", callback_data="start_home")]
     ])
 
 
