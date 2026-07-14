@@ -80,7 +80,7 @@ async def telegraph(_, message):
 
     content += """
     <hr>
-    <p><b>ᴄʜᴀɴɴᴇʟ :</b> <a href="https://t.me/Anime_UpdatesAU">ᴀɴɪᴍᴇ ᴜᴘᴅᴀᴛᴇs ᴀᴜ</a></p>
+    <p><b>ᴄʜᴀɴɴᴇʟ :</b> <a href="https://t.me/Aero_Unity">ᴀᴇʀᴏ ᴜɴɪᴛʏ</a></p>
     <p><b>ᴅᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href="https://t.me/Mr_Mohammed_29">ᴍᴏʜᴀᴍᴍᴇᴅ</a></p>
     """
 
@@ -93,7 +93,7 @@ async def telegraph(_, message):
     await message.reply_text(
         f"✅ Telegraph Created\n\n{url}",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌐 Open", url=url)]]
+            [[InlineKeyboardButton("• Open •", url=url)]]
         )
     )
 
