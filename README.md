@@ -126,7 +126,7 @@ python bot.py
 <p align="center">
 If you like this bot, please give it a ⭐ on GitHub.
 
-<a href="https://github.com/MD-Developer-yt/telegraph-ultra-bot">
+<a href="https://github.com/MohammedDev-yt/telegraph-ultra-bot">
 ⭐ Star Repository
 </a>
 </p>
