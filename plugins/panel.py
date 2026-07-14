@@ -32,11 +32,11 @@ Manage your bot from here:
 # ------------------------- #
     buttons = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("📊 Stats", callback_data="stats_panel"),
-            InlineKeyboardButton("📢 Broadcast", callback_data="broadcast_panel")
+            InlineKeyboardButton("• Stats •", callback_data="stats_panel"),
+            InlineKeyboardButton("•  Broadcast •", callback_data="broadcast_panel")
         ],
         [
-            InlineKeyboardButton("❌ Close", callback_data="close_panel")
+            InlineKeyboardButton("• Close •", callback_data="close_panel")
         ]
     ])
 
